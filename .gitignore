@@ -1,0 +1,54 @@
+# Raw BTS data: never stage source extracts, including copies outside data/raw.
+/data/raw/
+**/raw/
+T_ONTIME_REPORTING*.csv
+*_reporting.csv
+*_Reporting.csv
+On_Time_Reporting*.csv
+On_Time_Reporting*.zip
+
+# OS metadata
+.DS_Store
+._*
+Thumbs.db
+
+# Python bytecode, environments, and tool caches
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+ENV/
+.env/
+*-venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.ipynb_checkpoints/
+
+# Local credentials (keep the public Streamlit theme configuration).
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+.streamlit/cache/
+.streamlit/.cache/
+
+# Temporary files and local editor metadata
+*.tmp
+*.temp
+*.log
+*.swp
+*.swo
+*~
+.cache/
+tmp/
+temp/
+.idea/
+.vscode/
+*.code-workspace
+
+# Do not ignore dashboard/, notes/, outputs/, or work/: these contain
+# the small, reviewable Phase 0 deliverables and reproducibility inputs.
