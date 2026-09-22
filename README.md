@@ -4,6 +4,8 @@ A data-engineering portfolio project investigating one-step aircraft turnaround 
 
 **Current milestone: Phase 0 — reconstruction feasibility and audit dashboard.** No model has been trained. This project does not optimize airline operations or recommend aircraft swaps.
 
+**Research question:** Can an inbound delay propagate to the aircraft's next departure? This project studies that question through a retrospective, one-step A → B replay at ORD.
+
 ## Scope
 
 - Airport: Chicago O'Hare (**ORD**).
