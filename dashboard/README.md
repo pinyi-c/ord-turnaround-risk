@@ -1,13 +1,8 @@
 # ORD Turnaround Reconstruction Audit
 
-One-page, read-only Streamlit dashboard for the January 2024 MQ Phase 0 audit.
-## Live Dashboard
-
-**Phase 0 Reconstruction Audit:**  
-https://ord-turnaround-audit.streamlit.app
-
-This dashboard presents the data reconstruction and quality-audit stage of the project, including accepted turnaround pairs, rejection reasons, ground-gap distributions, and pair-level inspection.
-
+One-page, read-only Streamlit dashboard for the January 2024 MQ carrier Phase 0 audit at Chicago O'Hare (ORD).
+**[Open the Phase 0 Reconstruction Audit](https://ord-turnaround-audit.streamlit.app)**
+This Phase 0 dashboard does not yet include a modeling cohort, ML model, prediction interface, API, or authentication.
 The final ML risk-prediction dashboard will be developed in a later phase.
 
 ## Run locally
