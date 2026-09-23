@@ -1,6 +1,14 @@
 # ORD Turnaround Reconstruction Audit
 
 One-page, read-only Streamlit dashboard for the January 2024 MQ Phase 0 audit.
+## Live Dashboard
+
+**Phase 0 Reconstruction Audit:**  
+https://ord-turnaround-audit.streamlit.app
+
+This dashboard presents the data reconstruction and quality-audit stage of the project, including accepted turnaround pairs, rejection reasons, ground-gap distributions, and pair-level inspection.
+
+The final ML risk-prediction dashboard will be developed in a later phase.
 
 ## Run locally
 
